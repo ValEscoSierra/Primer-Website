@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+body{
+    background: #F5FAFE;
+}
+
+
+h1{
+    color: #407DA8 ;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 70px;
+    margin-top: 90px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: underline #99C3E1;
+}  
+
+h2{
+    color: #99C3E1 ;
+    font-size: 25px;
+    margin: 35px;
+    text-align: center;
+}
+
+h3{
+    color: #265F87 ;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 35px;
+    margin-left: 70px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+
+
+.urls{
+    list-style-type: disc;
+    font-family: 'Lato', sans-serif;
+    margin-left:45px;
+    color: black;  
+}
+
+li{
+    margin-bottom: 10px; /* Espacio vertical entre cada enlace */
+}
+
+.pics{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 70px;
+    margin-right: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Espacio entre las imágenes */
+}
+
+.cuadradas{
+    height: 380px;
+    width: 335px;
+}
+
+.largas{
+    width:335px;
+}
